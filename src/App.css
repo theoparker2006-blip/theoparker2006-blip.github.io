@@ -1,0 +1,173 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 8%;
+  background: mediumseagreen;
+  color: white;
+}
+
+.navbar h2 {
+  color: white;
+}
+
+.links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 25px;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+  align-items: left;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.hero img {
+  max-width: 300px;
+  align-self: left;
+}
+
+.hero h1 {
+  text-align: left;
+  font-size: 45px;
+  margin-bottom: 2px;
+  margin-left:20px;
+  line-height: 50px;
+  color: mediumseagreen;
+}
+
+.hero p {
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  margin-bottom: 30px;
+  margin-left: px;
+}
+
+ul {
+  list-style-type:none;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+.projects {
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.projects p {
+  margin: 20px;
+}
+
+h2 {
+  margin: 30px;
+}
+
+.projects h1 {
+  margin: 60px;
+  color:mediumseagreen;
+}
+
+img {
+  margin: 10px;
+}
+
+.projects h2 {
+  margin: 20px;
+}
+
+hr.solid-line {
+  border: none;
+  height: 10px;
+  background-color: mediumspringgreen; /* Use any hex, rgb, or color name */
+}
+
+.interests {
+  text-align: left;
+  padding: 70px 40px;
+  margin: 20px;
+  background:black;
+}
+
+.interests p {
+  margin: 20px;
+  color:white;
+}
+
+.interests h1, h2 {
+  color:mediumspringgreen;
+}
+
+.interests img {
+  max-height:300px;
+}
+
+.drawings {
+  display: flex;
+  gap: 30px;
+  background-color:mediumspringgreen;
+}
+
+.interests .animations {
+  display: flex;
+  gap: 30px;
+  background-color:mediumspringgreen;
+}
+
+.interests video {
+  width: 640px;
+  height: 360px
+}
+
+.interests h1 {
+  margin-bottom: 50px;
+}
+
+.headerContainer {
+  display: flex;             /* Enforces side-by-side layout */
+  flex-direction: row;       /* Standard horizontal row layout */
+  justify-content: space-between; /* Pushes one to the left, one to the right */
+  align-items: center;       /* Vertically centers both elements */
+  padding: 1rem 2rem;
+}
+
+.contact h2 {
+  color: white;
+}
+
+.contact {
+  display: flex;
+  text-align: center;
+  background: mediumseagreen;
+  color: white;
+  padding: 25px;
+}
+
